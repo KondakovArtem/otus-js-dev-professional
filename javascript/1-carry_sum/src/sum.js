@@ -1,12 +1,11 @@
 export const sum = (arg) => {
-    let res = arg;
-    function sumWithClosure(arg){
-        if (arg){
-            res += arg;
-            return sumWithClosure;
-        }
-        return res;
+  let res = arg;
+  const callback = (arg) => {
+    if (arg) {
+      res += arg;
+      return callback;
     }
-    return sumWithClosure;
-}
-
+    return res;
+  };
+  return callback;
+};
