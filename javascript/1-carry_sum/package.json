@@ -1,0 +1,12 @@
+{
+  "name": "1_carry_sum",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "cross-env": "^7.0.3"
+  }
+}
