@@ -1,4 +1,3 @@
 {
-    "jest.jestCommandLine": "npm test -",
-    "jestrunner.jestCommand": "node --experimental-vm-modules \"node_modules/jest/bin/jest.js\"",
+   "testing.automaticallyOpenPeekView": "never",
 }

@@ -10,7 +10,10 @@ sum(1)(2)(3)....(n)() === 1 + 2 + 3 + ... + n
 
 # How to
 
-npm install
+```
+yarn install
+```
 
-npm run test
-
+```
+yarn test
+```
