@@ -1,0 +1,19 @@
+{
+  "name": "3_get_path",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --coverage"
+  },
+  "resolutions": {
+    "nwsapi": "2.1.4"
+  },
+  "devDependencies": {
+    "vite": "^3.0.2",
+    "vitest": "^0.18.1",
+    "c8": "^7.11.3",
+    "jsdom": "15.1.1",
+    "nwsapi": "2.1.4",
+    "@types/jsdom": "^12.2.4"
+  }
+}
