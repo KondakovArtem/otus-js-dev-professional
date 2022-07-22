@@ -22,4 +22,10 @@ describe("sum", () => {
     const res = sum(1)(1)(1)(1)(1)(1)(1)();
     expect(res).toBe(7);
   });
+
+  it("sum(1)(0)(2)() // 7", () => {
+    const res = sum(1)(0)(2)();
+    expect(res).toBe(3);
+  });
+
 });

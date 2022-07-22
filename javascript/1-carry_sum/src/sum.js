@@ -1,7 +1,7 @@
 export const sum = (arg) => {
   let res = arg;
   const callback = (arg) => {
-    if (arg) {
+    if (typeof arg === 'number') {
       res += arg;
       return callback;
     }
