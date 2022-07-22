@@ -97,4 +97,15 @@ describe("maxItemAssociation", () => {
     const res = maxItemAssociation(groups);
     expect(res).toStrictEqual([8, 9, 45, 57]);
   });
+
+  it("test5", () => {
+    const groups = [
+      ["q", "e"],
+      ["q", "r"],
+      ["a", "b"],
+      ["a", "c"],
+    ];
+    const res = maxItemAssociation(groups);
+    expect(res).toStrictEqual(["a", "b", "c"]);
+  });
 });

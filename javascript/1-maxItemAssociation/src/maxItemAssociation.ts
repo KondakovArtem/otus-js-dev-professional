@@ -5,7 +5,10 @@ function sortFn<T>(a: T, b: T) {
 }
 
 function sortLengthFn<T>(a: T[], b: T[]) {
-  return a.length > b.length ? -1 : 1;
+  if (a.length > b.length) return -1;
+  if (a.length < b.length) return 1;
+  if (a.join("").localeCompare(b.join(""))) return -1;
+  return 1;
 }
 
 export function maxItemAssociation<T = string>(groups: Group<T>[]): T[] {
