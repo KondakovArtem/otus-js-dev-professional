@@ -1,4 +1,3 @@
 **/node_modules
 **/coverage
-javascript/4-fileTree/.vscode/launch.json
-javascript/4-fileTree/.vscode/settings.json
+**/.vscode

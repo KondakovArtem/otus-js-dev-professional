@@ -61,3 +61,7 @@ yarn install
 ```
 yarn test
 ```
+
+```
+npm run tree -- test/structure
+```
